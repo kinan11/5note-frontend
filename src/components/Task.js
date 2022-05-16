@@ -5,11 +5,13 @@ import {BsArrowsMove} from "react-icons/bs";
 const Task = ({onIcon,tytul,tresc},props) => {
 
   const ChipStyles = useRef({
+    backgroundColor:'#FFFFA7',
     position: 'absolute',
     marginTop: Math.floor(Math.random()*500),
     marginLeft: Math.floor(Math.random()*100),
     transform: 'translate(-50%, -50)',
-    border:'1px solid blue',
+    border:'1px solid black',
+    borderRadius:'12px',
     width:'300px',
     height:'200px',
 });

@@ -48,7 +48,7 @@ function App() {
 
 
 
-  const [bgColor, setBgColor] = useState('white');
+  const [bgColor, setBgColor] = useState('#3F3939');
   const [textColor, setTextColor] = useState('blue');
   const [textSize, setTextSize] = useState('15');
   const [titleSize, setTitleSize] = useState('25');
