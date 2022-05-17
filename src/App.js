@@ -90,7 +90,7 @@ function App() {
                   notatki={Tasks}
                   on
             />
-          <AiTwotoneSetting style={{fontSize:'5vh',margin:'5vh'}} onClick={() => {setBoardState('settings')}}/>
+          <AiTwotoneSetting style={{fontSize:'5vh',margin:'5vh' , color:"white"}} onClick={() => {setBoardState('settings')}}/>
         </div>
       );
     }
@@ -118,7 +118,7 @@ function App() {
         titleSize={titleSize} changeTitleSize={setTitleSize}
         isSample={true}
         format={format} changeFormat={setFormat}/>
-        <AiTwotoneSetting style={{fontSize:'5vh',margin:'5vh'}} onClick={() => {setBoardState('board')}}/>
+        <AiTwotoneSetting style={{fontSize:'5vh',margin:'5vh', color:"white"}} onClick={() => {setBoardState('board')}}/>
       </div>
     );
   }
