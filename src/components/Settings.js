@@ -10,8 +10,8 @@ import { style } from 'react-numeric-input';
 const Settings = (props) => {
 
     const options = [
-        { value: 'Lista', label: 'Lista' },
-        { value: 'Tablica', label: 'Tablica' }
+        { value: 'lista', label: 'Lista' },
+        { value: 'tablica', label: 'Tablica' }
       ]
       
     function handleBgColor(color) {
@@ -25,7 +25,7 @@ const Settings = (props) => {
     return (
     <div style={{marginLeft: "20%"}} >
         <h3 style={{ color: 'lightGray' }}>Format notatek:</h3>
-        <Select placeholder = "Wybierz format notatki" options={options} defaultValue={"lista"} onChange={ (value) => { props.changeFormat(value.value)} }/>
+        <Select placeholder = "Wybierz format notatek" options={options} defaultValue={"lista"} onChange={ (value) => { props.changeFormat(value.value)} }/>
         <div>
         <div style={{float: "left", margin: "10px"}}>
         <h3 style={{ color: 'lightGray' }}>Kolor tła:</h3>
